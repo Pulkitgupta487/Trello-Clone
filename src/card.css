@@ -1,0 +1,59 @@
+.common {
+    border-top: 1px solid black;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px ;
+    align-items: center;
+}
+
+.side2 {
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+    
+    
+    
+}
+
+.side1 {
+    align-items: center;
+}
+
+.text {
+    color: grey !important;
+    size: 20px;
+    padding-left: 15px;
+}
+
+.task {
+    display: flex;
+    
+   
+}
+
+/* .tick {
+    
+    
+} */
+
+
+
+.text2 {
+    color: grey !important;
+    padding-left: 4px;
+}
+
+
+
+.spacer {
+    
+    border: 1px solid grey;
+    
+    
+}
+
+
+/* .filter {
+    display: flex;
+} */

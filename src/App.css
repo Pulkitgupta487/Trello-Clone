@@ -1,0 +1,157 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Img-1 {
+ margin-top: 7px;
+ margin-bottom: 12px;
+ border-radius: 8px;
+ max-height: 39px;
+ padding-left: 5px;
+ 
+}
+
+.App {
+  display: flex;
+  align-items: center;
+}
+
+.Text-1 {
+  color: black !important;
+  margin-top: 10px;
+  text-decoration: solid;
+
+}
+
+.List {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  padding :0px;
+  color: grey !important;
+  margin-bottom: 5px;
+}
+
+.app-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+}
+
+
+
+.head-avatar {
+  display: flex;
+  position: relative;
+  
+}
+
+.img-3 {
+  max-height: 20px;
+  
+}
+
+.searchbar {
+  border: none ;
+  
+
+}
+
+.searchbar:focus-visible {
+ border: none ;
+ outline : none;
+}
+
+.searchbox {
+  border: 1px grey solid;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+  padding: 4px;
+  
+}
+
+.sidepanel {
+  display: flex;
+  flex-direction: row;
+  padding-left: 520px;
+  padding-right: 30px;
+}
+
+.img-4,.img-5,.img-6,.img-7 {
+  position: absolute;
+  top: 18%;
+  
+}
+
+.img-4 {
+  z-index: 1;
+  left: -200px;
+
+
+}
+
+.img-5 {
+  z-index: 2;
+  left: -175px;
+
+}
+
+.img-6 {
+  z-index: 3;
+  left: -150px;
+  
+}
+
+.img-7 {
+  z-index: 2;
+  left: -125px;
+}
+
+.sign {
+  margin-left: 10px;
+  font-size: 30px;
+
+}
+
+.spacer1 { 
+  border: 1px solid grey;
+  margin-left: -80px;
+  
+}
+
+
