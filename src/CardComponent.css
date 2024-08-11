@@ -118,3 +118,7 @@ h3, h4, h5, p {
     width: 30px;
     height: 30px;
 }
+
+.division {
+    display: flex;
+}

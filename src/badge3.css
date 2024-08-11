@@ -1,0 +1,20 @@
+.badge-container-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+
+.badge-3 {
+    color: white !important;
+    padding: 4px 16px !important;
+    border-radius: 15px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    background-color: pink;
+    align-items: center !important;
+    display: flex !important;
+    margin-bottom: 10px;
+    
+}

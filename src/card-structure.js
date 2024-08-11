@@ -15,8 +15,8 @@ function CardStructure() {
                     <RiMoreLine  className='more-option-icons'/>
                     </div>
                 </div>
-                <CardComponent title="Sprint Board" text="Sprint Board" hasImage={true} hasTaskList={false} isImageFull={true} />
-                <CardComponent title="Sprint Board" text="Sprint Board" hasImage={false} hasTaskList={false} isImageFull={true} />
+                <CardComponent title="Sprint Board" text="Sprint Board"  hasImage={true} hasTaskList={false} isImageFull={true} />
+                <CardComponent title="Sprint Board" text="Sprint Board"  hasImage={false} hasTaskList={false} isImageFull={true} />
 
         </div>
         <div className='columns'>

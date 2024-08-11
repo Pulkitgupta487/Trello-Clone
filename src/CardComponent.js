@@ -5,6 +5,8 @@ import {FaRegMessage} from "react-icons/fa6";
 import { FiMessageCircle } from "react-icons/fi";
 import { AiOutlineLike } from "react-icons/ai";
 import Badge from "./Badge";
+import Badge2 from "./badge2";
+import Badge3 from "./badge3";
 
 function CardComponent({
                            title,
@@ -16,8 +18,12 @@ function CardComponent({
     return (
         <div className="card">
             <div className="card-body">
+                
                 <div className={"card-image " + (!isImageFull ? "image-padding" : "")} hidden={!hasImage}>
-                    <img src="https://picsum.photos/600" alt="image"/>
+                    <img src="https://picsum.photos/600" alt=""/>
+                </div>
+                <div className="division">
+                <Badge2/><Badge3/>
                 </div>
                 <div className="card-content">
                     <h3 className="card-title">
