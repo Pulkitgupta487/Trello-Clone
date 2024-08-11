@@ -1,3 +1,7 @@
+p{
+    margin-bottom: 0 !important;
+}
+
 .common {
     border-top: 1px solid black;
     border-bottom: 1px solid grey;
@@ -11,9 +15,6 @@
     display: flex;
     gap: 20px;
     padding-right: 50px;
-    
-    
-    
 }
 
 .side1 {
@@ -28,20 +29,14 @@
 
 .task {
     display: flex;
-    
-   
+    align-items: center;
+   cursor: pointer;
 }
-
-/* .tick {
-    
-    
-} */
-
-
 
 .text2 {
     color: grey !important;
     padding-left: 4px;
+    margin-bottom: 0px;
 }
 
 

@@ -1,0 +1,32 @@
+.parent{
+    display: flex;
+    gap: 40px;
+    padding:15px 25px;
+    background-color: #f8f8f8;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 20px;
+}
+
+.card-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-options{
+    display: flex;
+    gap: 10px;
+}
+
+
+.more-option-icons{
+    font-size: 24px;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+}

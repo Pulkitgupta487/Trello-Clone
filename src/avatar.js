@@ -1,11 +1,11 @@
 import "./avatar.css"
-import images from "./images/avatar.png";
+// import images from "./images/avatar.png";
 
 
 function Avatar() {
     return (
         <div className= "avatar">
-            <img className="img-2" src={images} alt="logo" />
+            <img className="img-2" src="https://picsum.photos/600" alt="logo" />
 
         </div>
     )
